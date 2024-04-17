@@ -1,0 +1,1835 @@
+{
+    "SPDXID": "SPDXRef-laravel",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-04-09T18:10:49.817Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Laravel 11.0.6",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-laravel"
+    ],
+    "documentNamespace": "laravel-11.0.6",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-laravel",
+            "name": "Laravel",
+            "versionInfo": "11.0.6-0",
+            "downloadLocation": "https://github.com/laravel/laravel/archive/v11.0.6.tar.gz",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:laravel:laravel:11.0.6:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/laravel@11.0.6-0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "brick/math",
+            "SPDXID": "SPDXRef-Package-cca1fe5f6e6e2257",
+            "versionInfo": "0.11.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/brick/math@0.11.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "carbonphp/carbon-doctrine-types",
+            "SPDXID": "SPDXRef-Package-46cc6eb4e08bf357",
+            "versionInfo": "3.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/carbonphp/carbon-doctrine-types@3.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer",
+            "SPDXID": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "sourceInfo": "composer.lock",
+            "primaryPackagePurpose": "APPLICATION",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION"
+        },
+        {
+            "name": "dflydev/dot-access-data",
+            "SPDXID": "SPDXRef-Package-abd57caaaf1a046b",
+            "versionInfo": "v3.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "doctrine/inflector",
+            "SPDXID": "SPDXRef-Package-f551c6f7c0e427c7",
+            "versionInfo": "2.0.10",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/inflector@2.0.10"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "doctrine/lexer",
+            "SPDXID": "SPDXRef-Package-7b6e1ad3129314d3",
+            "versionInfo": "3.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/lexer@3.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "dragonmantank/cron-expression",
+            "SPDXID": "SPDXRef-Package-6378f25e67216cab",
+            "versionInfo": "v3.3.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/dragonmantank/cron-expression@v3.3.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "egulias/email-validator",
+            "SPDXID": "SPDXRef-Package-3047f3970cff3a80",
+            "versionInfo": "4.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/egulias/email-validator@4.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "fruitcake/php-cors",
+            "SPDXID": "SPDXRef-Package-54dc53743c6ba92f",
+            "versionInfo": "v1.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/fruitcake/php-cors@v1.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "graham-campbell/result-type",
+            "SPDXID": "SPDXRef-Package-63b450ba35ef309",
+            "versionInfo": "v1.1.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/graham-campbell/result-type@v1.1.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "SPDXID": "SPDXRef-Package-3d12c6788ae95052",
+            "versionInfo": "7.8.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.8.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "SPDXID": "SPDXRef-Package-ee00fec3a9900d21",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "SPDXID": "SPDXRef-Package-86fe9edf88ef1e33",
+            "versionInfo": "2.6.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.6.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "guzzlehttp/uri-template",
+            "SPDXID": "SPDXRef-Package-8d377ce05c0d23c5",
+            "versionInfo": "v1.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/uri-template@v1.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "laravel/framework",
+            "SPDXID": "SPDXRef-Package-f6b3d604ebe42bbb",
+            "versionInfo": "v11.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/laravel/framework@v11.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "laravel/prompts",
+            "SPDXID": "SPDXRef-Package-92d092c974022cf0",
+            "versionInfo": "v0.1.18",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/laravel/prompts@v0.1.18"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "laravel/serializable-closure",
+            "SPDXID": "SPDXRef-Package-695b8b473247ef00",
+            "versionInfo": "v1.3.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/laravel/serializable-closure@v1.3.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "laravel/tinker",
+            "SPDXID": "SPDXRef-Package-3550eb739f70b7b5",
+            "versionInfo": "v2.9.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/laravel/tinker@v2.9.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/commonmark",
+            "SPDXID": "SPDXRef-Package-10d44289823870f4",
+            "versionInfo": "2.4.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/commonmark@2.4.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/config",
+            "SPDXID": "SPDXRef-Package-61bb924653ddec14",
+            "versionInfo": "v1.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/config@v1.2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/flysystem",
+            "SPDXID": "SPDXRef-Package-8537c41439864ab1",
+            "versionInfo": "3.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/flysystem@3.27.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/flysystem-local",
+            "SPDXID": "SPDXRef-Package-580be6fdb382f96",
+            "versionInfo": "3.25.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/flysystem-local@3.25.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "league/mime-type-detection",
+            "SPDXID": "SPDXRef-Package-571bff53781d4e0f",
+            "versionInfo": "1.15.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/mime-type-detection@1.15.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "monolog/monolog",
+            "SPDXID": "SPDXRef-Package-6b86558289ed02bf",
+            "versionInfo": "3.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/monolog/monolog@3.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nesbot/carbon",
+            "SPDXID": "SPDXRef-Package-37f3e7049186ede2",
+            "versionInfo": "3.2.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nesbot/carbon@3.2.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nette/schema",
+            "SPDXID": "SPDXRef-Package-1561bc48fa78208d",
+            "versionInfo": "v1.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND GPL-3.0-only",
+            "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only AND GPL-3.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nette/schema@v1.3.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nette/utils",
+            "SPDXID": "SPDXRef-Package-176c68639237d9d1",
+            "versionInfo": "v4.0.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND GPL-3.0-only",
+            "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only AND GPL-3.0-only",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nette/utils@v4.0.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nikic/php-parser",
+            "SPDXID": "SPDXRef-Package-320048c7406d2dc2",
+            "versionInfo": "v5.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v5.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "nunomaduro/termwind",
+            "SPDXID": "SPDXRef-Package-13aa32621a6289d8",
+            "versionInfo": "v2.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nunomaduro/termwind@v2.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "SPDXID": "SPDXRef-Package-a25d9493ae9cfc6d",
+            "versionInfo": "1.9.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpoption/phpoption@1.9.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/clock",
+            "SPDXID": "SPDXRef-Package-c25ced8f419ac79e",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/clock@1.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/container",
+            "SPDXID": "SPDXRef-Package-c69a50ac60ef3a1f",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/container@2.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-7121d7083ba54dc7",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-client",
+            "SPDXID": "SPDXRef-Package-a0843b2e7e946c32",
+            "versionInfo": "1.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-factory",
+            "SPDXID": "SPDXRef-Package-6e22d44785275552",
+            "versionInfo": "1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.0.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/http-message",
+            "SPDXID": "SPDXRef-Package-ee41d8c04b9cc21a",
+            "versionInfo": "2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-message@2.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/log",
+            "SPDXID": "SPDXRef-Package-3c6a02db5d9a6119",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/log@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psr/simple-cache",
+            "SPDXID": "SPDXRef-Package-a494661e8f29aa30",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/simple-cache@3.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "psy/psysh",
+            "SPDXID": "SPDXRef-Package-630e62523f8b4bbc",
+            "versionInfo": "v0.12.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.12.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "SPDXID": "SPDXRef-Package-1870f78de242e96e",
+            "versionInfo": "3.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "ramsey/collection",
+            "SPDXID": "SPDXRef-Package-1bd1cd89c005efc5",
+            "versionInfo": "2.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ramsey/collection@2.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "ramsey/uuid",
+            "SPDXID": "SPDXRef-Package-cd6c00010f1c7518",
+            "versionInfo": "4.7.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ramsey/uuid@4.7.5"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/clock",
+            "SPDXID": "SPDXRef-Package-fe119f48d966afdb",
+            "versionInfo": "v7.0.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/clock@v7.0.5"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/console",
+            "SPDXID": "SPDXRef-Package-8145c3124bba870f",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/console@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/css-selector",
+            "SPDXID": "SPDXRef-Package-159ab5bf62467017",
+            "versionInfo": "v7.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/css-selector@v7.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "SPDXID": "SPDXRef-Package-a4d73397ed097b4d",
+            "versionInfo": "v3.4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.4.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/error-handler",
+            "SPDXID": "SPDXRef-Package-9e8965e68be29286",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/error-handler@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-2f352fe05c4cd63e",
+            "versionInfo": "v7.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v7.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "SPDXID": "SPDXRef-Package-e30e2782f4e5f178",
+            "versionInfo": "v3.4.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.4.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/finder",
+            "SPDXID": "SPDXRef-Package-a2a2c266cb6f2c0",
+            "versionInfo": "v7.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/finder@v7.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "SPDXID": "SPDXRef-Package-a0d68c3270949d0a",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-foundation@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "SPDXID": "SPDXRef-Package-a384c913ea214db3",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-kernel@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/mailer",
+            "SPDXID": "SPDXRef-Package-f46288a5b9f79aaf",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/mailer@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/mime",
+            "SPDXID": "SPDXRef-Package-1052522e9d1032b3",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/mime@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "SPDXID": "SPDXRef-Package-68952e3b003c85d3",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "SPDXID": "SPDXRef-Package-c8d3fc84fae1513",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-idn",
+            "SPDXID": "SPDXRef-Package-4b3595543bedd39d",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "SPDXID": "SPDXRef-Package-3fd1c6aeb0821f19",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "SPDXID": "SPDXRef-Package-443d5053a0c10550",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "SPDXID": "SPDXRef-Package-17359c2cffb2509d",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "SPDXID": "SPDXRef-Package-276dcc5b03a5e4a2",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-php83",
+            "SPDXID": "SPDXRef-Package-6f6ed528c921da8",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php83@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/polyfill-uuid",
+            "SPDXID": "SPDXRef-Package-c45cdeb71bf9738d",
+            "versionInfo": "v1.29.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-uuid@v1.29.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/process",
+            "SPDXID": "SPDXRef-Package-c411886126b3366",
+            "versionInfo": "v7.0.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/process@v7.0.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/routing",
+            "SPDXID": "SPDXRef-Package-bb6b12fe6b6fc3b9",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/routing@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "SPDXID": "SPDXRef-Package-7ee73f32a0f2448d",
+            "versionInfo": "v3.4.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.4.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/string",
+            "SPDXID": "SPDXRef-Package-b02abf4e4c755663",
+            "versionInfo": "v7.0.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/string@v7.0.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/translation",
+            "SPDXID": "SPDXRef-Package-50abca5efedc14c4",
+            "versionInfo": "v7.0.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/translation@v7.0.4"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "SPDXID": "SPDXRef-Package-d5d26675424625ae",
+            "versionInfo": "v3.4.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.4.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/uid",
+            "SPDXID": "SPDXRef-Package-9aba6ed69006a4b7",
+            "versionInfo": "v7.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/uid@v7.0.3"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "SPDXID": "SPDXRef-Package-e652ee538c463e56",
+            "versionInfo": "v7.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v7.0.6"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "tijsverkoyen/css-to-inline-styles",
+            "SPDXID": "SPDXRef-Package-753bfbdf3ea4f82e",
+            "versionInfo": "v2.2.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/tijsverkoyen/css-to-inline-styles@v2.2.7"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "SPDXID": "SPDXRef-Package-3a16a46728cef2ac",
+            "versionInfo": "v5.6.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/vlucas/phpdotenv@v5.6.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "voku/portable-ascii",
+            "SPDXID": "SPDXRef-Package-de203b26c02f03b0",
+            "versionInfo": "2.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/voku/portable-ascii@2.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "webmozart/assert",
+            "SPDXID": "SPDXRef-Package-f28819aebca4b9ce",
+            "versionInfo": "1.11.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/webmozart/assert@1.11.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-laravel",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-2201f8edd0bfe089-laravel"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-cca1fe5f6e6e2257",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-46cc6eb4e08bf357",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-abd57caaaf1a046b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-f551c6f7c0e427c7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-7b6e1ad3129314d3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-6378f25e67216cab",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3047f3970cff3a80",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-54dc53743c6ba92f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-63b450ba35ef309",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3d12c6788ae95052",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-ee00fec3a9900d21",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-86fe9edf88ef1e33",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-8d377ce05c0d23c5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-f6b3d604ebe42bbb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-92d092c974022cf0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-695b8b473247ef00",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3550eb739f70b7b5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-10d44289823870f4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-61bb924653ddec14",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-8537c41439864ab1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-580be6fdb382f96",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-571bff53781d4e0f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-6b86558289ed02bf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-37f3e7049186ede2",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-1561bc48fa78208d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-176c68639237d9d1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-320048c7406d2dc2",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-13aa32621a6289d8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a25d9493ae9cfc6d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-c25ced8f419ac79e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-c69a50ac60ef3a1f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-7121d7083ba54dc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a0843b2e7e946c32",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-6e22d44785275552",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-ee41d8c04b9cc21a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3c6a02db5d9a6119",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a494661e8f29aa30",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-630e62523f8b4bbc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-1870f78de242e96e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-1bd1cd89c005efc5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-cd6c00010f1c7518",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-fe119f48d966afdb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-8145c3124bba870f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-159ab5bf62467017",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a4d73397ed097b4d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-9e8965e68be29286",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-2f352fe05c4cd63e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-e30e2782f4e5f178",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a2a2c266cb6f2c0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a0d68c3270949d0a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-a384c913ea214db3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-f46288a5b9f79aaf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-1052522e9d1032b3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-68952e3b003c85d3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-c8d3fc84fae1513",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-4b3595543bedd39d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3fd1c6aeb0821f19",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-443d5053a0c10550",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-17359c2cffb2509d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-276dcc5b03a5e4a2",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-6f6ed528c921da8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-c45cdeb71bf9738d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-c411886126b3366",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-bb6b12fe6b6fc3b9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-7ee73f32a0f2448d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-b02abf4e4c755663",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-50abca5efedc14c4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-d5d26675424625ae",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-9aba6ed69006a4b7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-e652ee538c463e56",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-753bfbdf3ea4f82e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-3a16a46728cef2ac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-de203b26c02f03b0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-laravel",
+            "relatedSpdxElement": "SPDXRef-Package-f28819aebca4b9ce",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
