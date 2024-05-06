@@ -2,7 +2,7 @@
 
 Para empujar código existente a un nuevo repositorio de GitHub, sigue estos pasos:
 
-1. Copia el enlace HTTPS proporcionado al momento de crear el nuevo repositorio. Por ejemplo, [Empty Repo](https://github.com/NombredeTuUsuario/Nombre_de_tu_repositor).
+1. Copia el enlace HTTPS proporcionado al momento de crear el nuevo repositorio. Por ejemplo, [Repositorio Vacío(https://github.com/NombredeTuUsuario/Nombre_de_tu_repositor).
 
 2. Ejecuta `git init` en la terminal. Esto inicializará la carpeta/repositorio que tienes en tu computadora local.
 
