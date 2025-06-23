@@ -78,12 +78,13 @@ class LoginTest extends TestCase
 5. Resultado esperado
 ```vbnet
 PHPUnit x.y.z by Sebastian Bergmann and contributors.
-```
+
 ..                                                                  2 / 2 (100%)
 
 Time: 00:00.123, Memory: 6.00 MB
 
 OK (2 tests, 2 assertions)
+```
 6. ¿Qué demuestra este proyecto?
 Aplicación de TDD: primero se escribe el test, luego el código mínimo para pasarlo.
 
