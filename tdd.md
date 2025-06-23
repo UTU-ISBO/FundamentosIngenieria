@@ -1,8 +1,6 @@
 🧪 Ejemplo de TDD con PHPUnit – Login básico
 Paso 1: Escribir el test
-php
-Copy
-Edit
+'''php
 // tests/LoginTest.php
 use PHPUnit\Framework\TestCase;
 require_once 'LoginService.php';
@@ -21,10 +19,10 @@ class LoginTest extends TestCase
         $this->assertFalse($login->autenticar('usuario', 'claveErronea'));
     }
 }
+'''
 Paso 2: Escribir el código mínimo para pasar el test
-php
-Copy
-Edit
+'''php
+
 // LoginService.php
 class LoginService
 {
@@ -37,5 +35,6 @@ class LoginService
         return isset($this->usuarios[$usuario]) && $this->usuarios[$usuario] === $clave;
     }
 }
+'''
 Paso 3: Refactorizar (opcional)
 Si el sistema crece, podrías usar clases como UserRepository, inyección de dependencias, etc.
