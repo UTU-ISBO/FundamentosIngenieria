@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Ingeniería de Software (IS)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .chart-container { position: relative; width: 100%; max-width: 700px; margin-left: auto; margin-right: auto; height: 350px; max-height: 400px; }
+        @media (min-width: 768px) { .chart-container { height: 380px; } }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .sdlc-arrow::after { content: '➔'; position: absolute; right: -15px; top: 50%; transform: translateY(-50%); color: #3b82f6; font-size: 1.5rem; display: none; }
+        @media (min-width: 768px) { .sdlc-arrow::after { display: block; } }
+        .sdlc-arrow:last-child::after { display: none; }
+    </style>
+</head>
+<body class="antialiased min-h-screen pb-12">
+
+    <!-- PALETTE: "Vibrant Academic Dark" - Background: #0f172a, Cards: #1e293b, Accents: #3b82f6 (Blue), #ef4444 (Red), #10b981 (Green), #f59eb0 (Amber), #a855f7 (Purple) -->
+    <!-- NARRATIVE PLAN: 1. Academic Header defining IS. 2. KPIs on the "Software Crisis" (Why IS is needed). 3. Charts: Failure causes (Management vs Code) & Shift-Left Paradigm. 4. SDLC Process Flow. 5. Core concepts breakdown: Requirements (RF/RNF) & UML basics. -->
+    <!-- VISUALIZATION CHOICES: 
+         1. Stat Cards -> Goal: Inform. Method: Styled HTML/Tailwind. Justification: Highlights core curriculum statistics. NO SVG used.
+         2. Donut Chart -> Goal: Compare. Method: Chart.js. Justification: Visualizes the 70/30 split between management/process failures vs code failures. NO SVG used.
+         3. Bar Chart -> Goal: Change/Trend. Method: Chart.js. Justification: Shows the exponential cost multiplier in the Shift-Left paradigm. NO SVG used.
+         4. SDLC Flow -> Goal: Organize. Method: HTML/CSS Flexbox. Justification: Clearly displays the linear/iterative phases without external diagram tools. NO SVG used.
+         5. Concept Grid -> Goal: Organize. Method: HTML/CSS Grid & Lists. Justification: Breaks down RF/RNF and UML diagrams textually and structurally for study. NO SVG used.
+         CONFIRMATION: NEITHER Mermaid JS NOR SVG were used anywhere in the output. -->
+
+    <header class="bg-gradient-to-r from-slate-900 to-blue-950 border-b border-blue-500/30 py-16 px-6 text-center shadow-2xl relative overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block bg-blue-500/20 text-blue-300 font-semibold px-4 py-1 rounded-full mb-4 text-sm tracking-widest uppercase">CETP-UTU · CTT · Redes y Software</div>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Fundamentos de la Ingeniería de Software</h1>
+            <p class="text-xl md:text-2xl text-slate-300 font-light mb-4">Saber programar no es suficiente; saber organizarse lo es.</p>
+            <p class="text-base text-slate-400 max-w-3xl mx-auto">La Ingeniería de Software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento del software. Aporta las herramientas para planificar, diseñar y trabajar en equipo con metodologías reales.</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 space-y-16">
+
+        <!-- INTRO & KPIs SECTION -->
+        <section class="space-y-8">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-100 mb-4">El Paradigma del Desarrollo Profesional</h2>
+                <p class="text-slate-400">El desarrollo empírico ("escribir código y probar") no escala en la industria. La Ingeniería de Software (IS) surge para mitigar riesgos, asegurar la calidad y garantizar que el producto cumpla con las expectativas del cliente en tiempo y forma.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card rounded-2xl p-6 text-center shadow-lg border-t-4 border-t-red-500">
+                    <div class="text-4xl font-black text-red-500 mb-2">60-80%</div>
+                    <div class="text-lg font-semibold text-slate-200">Tasa de Fracaso</div>
+                    <div class="text-sm text-slate-400 mt-2">Porcentaje de proyectos IT que fracasan, se exceden en presupuesto o no cumplen los requisitos originales.</div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 text-center shadow-lg border-t-4 border-t-blue-500">
+                    <div class="text-4xl font-black text-blue-500 mb-2">&#128200;</div>
+                    <div class="text-lg font-semibold text-slate-200">Enfoque Sistemático</div>
+                    <div class="text-sm text-slate-400 mt-2">La IS provee métodos estructurados (SDLC, Ágil, Scrum) para transformar ideas abstractas en productos tangibles.</div>
+                </div>
+                <div class="glass-card rounded-2xl p-6 text-center shadow-lg border-t-4 border-t-emerald-500">
+                    <div class="text-4xl font-black text-emerald-500 mb-2">Shift-Left</div>
+                    <div class="text-lg font-semibold text-slate-200">Calidad Temprana</div>
+                    <div class="text-sm text-slate-400 mt-2">Mover el diseño arquitectónico, las pruebas (QA) y la seguridad hacia las fases iniciales del proyecto.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHARTS SECTION: WHY WE NEED IS -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+            <!-- Left Chart -->
+            <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-100 mb-2">El Mito del Código</h3>
+                    <p class="text-sm text-slate-400 mb-6">Contrario a la creencia popular, la mayoría de los fracasos no se deben a la incompetencia técnica o errores de sintaxis, sino a problemas de gestión, mala comunicación y requerimientos ambiguos.</p>
+                </div>
+                <div class="chart-container flex-grow flex items-center justify-center">
+                    <canvas id="failureCausesChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Right Chart -->
+            <div class="glass-card rounded-3xl p-8 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-100 mb-2">El Costo del Defecto (Shift-Left)</h3>
+                    <p class="text-sm text-slate-400 mb-6">El costo de reparar un error crece exponencialmente. Un bug de diseño detectado en la etapa de análisis cuesta 1x. El mismo error descubierto en producción cuesta hasta 100 veces más.</p>
+                </div>
+                <div class="chart-container flex-grow flex items-center justify-center">
+                    <canvas id="shiftLeftChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- SDLC SECTION -->
+        <section class="space-y-8 glass-card rounded-3xl p-8 lg:p-12">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-100 mb-4">El Ciclo de Vida del Software (SDLC)</h2>
+                <p class="text-slate-400">El marco de referencia estándar (ISO/IEC/IEEE 12207) que define los procesos y actividades a lo largo de la vida de un sistema, independiente de si usamos modelo en Cascada o metodologías Ágiles.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-stretch gap-4 relative mt-8">
+                <div class="sdlc-arrow flex-1 bg-slate-800 p-6 rounded-xl text-center border-t-4 border-blue-500 relative z-10 hover:bg-slate-700 transition">
+                    <div class="text-3xl mb-3">&#128269;</div>
+                    <h4 class="font-bold text-white mb-2 text-sm uppercase tracking-wider">1. Relevamiento</h4>
+                    <p class="text-xs text-slate-400">Ingeniería de requerimientos. Definir qué debe hacer el sistema resolviendo las necesidades del cliente.</p>
+                </div>
+                <div class="sdlc-arrow flex-1 bg-slate-800 p-6 rounded-xl text-center border-t-4 border-emerald-500 relative z-10 hover:bg-slate-700 transition">
+                    <div class="text-3xl mb-3">&#128208;</div>
+                    <h4 class="font-bold text-white mb-2 text-sm uppercase tracking-wider">2. Análisis & Diseño</h4>
+                    <p class="text-xs text-slate-400">Modelado lógico y físico (UML). Arquitectura de datos, interfaces y reglas de seguridad.</p>
+                </div>
+                <div class="sdlc-arrow flex-1 bg-slate-800 p-6 rounded-xl text-center border-t-4 border-amber-500 relative z-10 hover:bg-slate-700 transition">
+                    <div class="text-3xl mb-3">&#128187;</div>
+                    <h4 class="font-bold text-white mb-2 text-sm uppercase tracking-wider">3. Implementación</h4>
+                    <p class="text-xs text-slate-400">Codificación aplicando buenas prácticas (Clean Code), control de versiones y estándares.</p>
+                </div>
+                <div class="sdlc-arrow flex-1 bg-slate-800 p-6 rounded-xl text-center border-t-4 border-red-500 relative z-10 hover:bg-slate-700 transition">
+                    <div class="text-3xl mb-3">&#129514;</div>
+                    <h4 class="font-bold text-white mb-2 text-sm uppercase tracking-wider">4. Pruebas (QA)</h4>
+                    <p class="text-xs text-slate-400">Verificación y validación. Pruebas unitarias, de integración y de aceptación del usuario.</p>
+                </div>
+                <div class="flex-1 bg-slate-800 p-6 rounded-xl text-center border-t-4 border-purple-500 relative z-10 hover:bg-slate-700 transition">
+                    <div class="text-3xl mb-3">&#128640;</div>
+                    <h4 class="font-bold text-white mb-2 text-sm uppercase tracking-wider">5. Despliegue</h4>
+                    <p class="text-xs text-slate-400">Puesta en producción, monitoreo, mantenimiento evolutivo y correctivo del sistema.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- REQUIREMENTS & UML SECTION -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Requirements -->
+            <div class="glass-card rounded-2xl p-8">
+                <div class="flex items-center mb-6">
+                    <span class="text-3xl mr-3">&#128203;</span>
+                    <h3 class="text-2xl font-bold text-slate-100">Ingeniería de Requerimientos</h3>
+                </div>
+                <p class="text-sm text-slate-400 mb-6">Base del alcance del proyecto. Un requerimiento es una condición o capacidad que debe poseer el sistema para satisfacer un contrato o estándar.</p>
+                
+                <div class="space-y-4">
+                    <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-blue-500">
+                        <h4 class="font-bold text-blue-400 mb-1">Requerimientos Funcionales (RF)</h4>
+                        <p class="text-sm text-slate-300 mb-2">El <strong>QUÉ</strong> hace el sistema. Funciones específicas, comportamientos y cálculos.</p>
+                        <code class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 block">Ej: "El sistema debe permitir al docente registrar la nota final del alumno."</code>
+                    </div>
+                    <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-emerald-500">
+                        <h4 class="font-bold text-emerald-400 mb-1">Req. No Funcionales (RNF)</h4>
+                        <p class="text-sm text-slate-300 mb-2">El <strong>CÓMO</strong> lo hace. Atributos de calidad: rendimiento, seguridad, usabilidad.</p>
+                        <code class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-400 block">Ej: "El sistema debe encriptar las contraseñas usando SHA-256."</code>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UML -->
+            <div class="glass-card rounded-2xl p-8">
+                <div class="flex items-center mb-6">
+                    <span class="text-3xl mr-3">&#128421;</span>
+                    <h3 class="text-2xl font-bold text-slate-100">Modelado con UML</h3>
+                </div>
+                <p class="text-sm text-slate-400 mb-6">Lenguaje Unificado de Modelado. Es el estándar de la industria para visualizar, especificar y documentar los artefactos de un sistema.</p>
+                
+                <ul class="space-y-3">
+                    <li class="flex bg-slate-800/50 rounded-lg p-3">
+                        <div class="text-amber-500 font-bold mr-3 mt-0.5">&#10003;</div>
+                        <div>
+                            <span class="font-semibold text-slate-200 block text-sm">Diagramas de Casos de Uso</span>
+                            <span class="text-xs text-slate-400">Modela el comportamiento del sistema desde la perspectiva del usuario (Actores).</span>
+                        </div>
+                    </li>
+                    <li class="flex bg-slate-800/50 rounded-lg p-3">
+                        <div class="text-amber-500 font-bold mr-3 mt-0.5">&#10003;</div>
+                        <div>
+                            <span class="font-semibold text-slate-200 block text-sm">Diagramas de Clases</span>
+                            <span class="text-xs text-slate-400">Modela la estructura estática, mostrando clases, atributos, métodos y sus relaciones lógicas.</span>
+                        </div>
+                    </li>
+                    <li class="flex bg-slate-800/50 rounded-lg p-3">
+                        <div class="text-amber-500 font-bold mr-3 mt-0.5">&#10003;</div>
+                        <div>
+                            <span class="font-semibold text-slate-200 block text-sm">Diagramas de Actividad</span>
+                            <span class="text-xs text-slate-400">Flujogramas que muestran el flujo de control paso a paso para un proceso específico.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-20 py-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>Material de Apoyo Académico - Módulo I: Técnico en Redes y Software</p>
+    </footer>
+
+    <script>
+        // --- 16-char String Wrapping Logic Requirement ---
+        const wrapLabel = (str, limit = 16) => {
+            if (str.length <= limit) return str;
+            const words = str.split(' ');
+            let lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + word).length > limit) {
+                    lines.push(currentLine.trim());
+                    currentLine = word + ' ';
+                } else {
+                    currentLine += word + ' ';
+                }
+            });
+            lines.push(currentLine.trim());
+            return lines.filter(l => l.length > 0);
+        };
+
+        // --- Required Tooltip Configuration ---
+        const commonTooltipConfig = {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        };
+
+        // --- Donut Chart: Failure Causes ---
+        const ctxFailure = document.getElementById('failureCausesChart').getContext('2d');
+        const labelsFailure = [
+            'Problemas de Gestión, Requisitos y Comunicación',
+            'Errores Técnicos y de Código Fuente'
+        ].map(l => wrapLabel(l));
+
+        new Chart(ctxFailure, {
+            type: 'doughnut',
+            data: {
+                labels: labelsFailure,
+                datasets: [{
+                    data: [75, 25],
+                    backgroundColor: [
+                        '#ef4444', // Red for management failure (majority)
+                        '#3b82f6'  // Blue for code
+                    ],
+                    borderColor: '#1e293b',
+                    borderWidth: 4,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { color: '#cbd5e1', padding: 20, font: { family: "'Segoe UI', sans-serif", size: 13 } }
+                    },
+                    tooltip: commonTooltipConfig
+                },
+                cutout: '65%'
+            }
+        });
+
+        // --- Bar Chart: Shift-Left (Cost over time) ---
+        const ctxCost = document.getElementById('shiftLeftChart').getContext('2d');
+        const labelsCost = [
+            'Fase de Relevamiento',
+            'Fase de Diseño',
+            'Implementación / Código',
+            'Pruebas (QA)',
+            'Etapa de Producción'
+        ].map(l => wrapLabel(l));
+
+        new Chart(ctxCost, {
+            type: 'bar',
+            data: {
+                labels: labelsCost,
+                datasets: [{
+                    label: 'Multiplicador de Costo por Corrección',
+                    data: [1, 5, 10, 30, 100],
+                    backgroundColor: [
+                        '#10b981', // Green (Cheap/Early)
+                        '#0ea5e9', // Light Blue
+                        '#f59e0b', // Amber
+                        '#f97316', // Orange
+                        '#ef4444'  // Red (Expensive/Late)
+                    ],
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                        ticks: { color: '#94a3b8' },
+                        title: { display: true, text: 'Costo Relativo (x)', color: '#94a3b8', font: { weight: 'bold' } }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#94a3b8', maxRotation: 45, minRotation: 0 }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: commonTooltipConfig
+                }
+            }
+        });
+    </script>
+</body>
+</html>
